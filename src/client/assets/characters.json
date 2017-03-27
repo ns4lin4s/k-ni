@@ -1,0 +1,3063 @@
+{"frames": [
+
+{
+	"filename": "Knight1/Axe/Attack/1.png",
+	"frame": {"x":1,"y":123,"w":74,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":74,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Attack/2.png",
+	"frame": {"x":649,"y":123,"w":69,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":69,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Attack/3.png",
+	"frame": {"x":144,"y":955,"w":66,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Idle/1.png",
+	"frame": {"x":1687,"y":103,"w":78,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Idle/2.png",
+	"frame": {"x":369,"y":592,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Idle/3.png",
+	"frame": {"x":459,"y":342,"w":78,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":31,"w":78,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Idle/4.png",
+	"frame": {"x":530,"y":342,"w":78,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Idle/5.png",
+	"frame": {"x":609,"y":422,"w":78,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Shield_Mode/0.png",
+	"frame": {"x":684,"y":429,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Shield_Mode/1.png",
+	"frame": {"x":217,"y":856,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Walking/1.png",
+	"frame": {"x":764,"y":429,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":74,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Walking/2.png",
+	"frame": {"x":289,"y":588,"w":78,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":23,"w":78,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Walking/3.png",
+	"frame": {"x":449,"y":592,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":74,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Axe/Walking/4.png",
+	"frame": {"x":525,"y":588,"w":62,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":23,"w":62,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Idle/1.png",
+	"frame": {"x":669,"y":986,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Idle/2.png",
+	"frame": {"x":1117,"y":266,"w":70,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Idle/3.png",
+	"frame": {"x":921,"y":504,"w":70,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Idle/4.png",
+	"frame": {"x":920,"y":429,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Idle/5.png",
+	"frame": {"x":918,"y":576,"w":70,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Walking/1.png",
+	"frame": {"x":482,"y":274,"w":66,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Walking/2.png",
+	"frame": {"x":716,"y":274,"w":66,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Walking/3.png",
+	"frame": {"x":824,"y":984,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Disarmed/Walking/4.png",
+	"frame": {"x":1188,"y":261,"w":50,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":50,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Dying/1.png",
+	"frame": {"x":837,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":27,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Dying/2.png",
+	"frame": {"x":885,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":39,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Dying/3.png",
+	"frame": {"x":741,"y":1056,"w":42,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":55,"w":42,"h":45},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Dying/4.png",
+	"frame": {"x":1193,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":47,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Dying/5.png",
+	"frame": {"x":1529,"y":1054,"w":42,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":55,"w":42,"h":45},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Attack/1.png",
+	"frame": {"x":1,"y":429,"w":66,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":66,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Attack/2.png",
+	"frame": {"x":550,"y":841,"w":69,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":69,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Attack/3.png",
+	"frame": {"x":892,"y":984,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Idle/1.png",
+	"frame": {"x":629,"y":835,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Idle/2.png",
+	"frame": {"x":781,"y":822,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Idle/3.png",
+	"frame": {"x":1043,"y":980,"w":70,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Idle/4.png",
+	"frame": {"x":1406,"y":341,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Idle/5.png",
+	"frame": {"x":623,"y":914,"w":70,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Shield_Mode/0.png",
+	"frame": {"x":842,"y":504,"w":70,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Shield_Mode/1.png",
+	"frame": {"x":1580,"y":186,"w":70,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Walking/1.png",
+	"frame": {"x":1418,"y":190,"w":66,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Walking/2.png",
+	"frame": {"x":638,"y":202,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Walking/3.png",
+	"frame": {"x":1383,"y":562,"w":66,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight1/Sword/Walking/4.png",
+	"frame": {"x":433,"y":758,"w":58,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":58,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Attack/1.png",
+	"frame": {"x":1605,"y":1,"w":74,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":74,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Attack/2.png",
+	"frame": {"x":389,"y":123,"w":77,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":11,"w":77,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Attack/3.png",
+	"frame": {"x":1331,"y":190,"w":66,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Idle/1.png",
+	"frame": {"x":137,"y":429,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Idle/2.png",
+	"frame": {"x":1440,"y":103,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Idle/3.png",
+	"frame": {"x":1520,"y":103,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Idle/4.png",
+	"frame": {"x":137,"y":516,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Idle/5.png",
+	"frame": {"x":137,"y":603,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Shield_Mode/0.png",
+	"frame": {"x":137,"y":690,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Shield_Mode/1.png",
+	"frame": {"x":370,"y":909,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Walking/1.png",
+	"frame": {"x":141,"y":777,"w":74,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":15,"w":74,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Walking/2.png",
+	"frame": {"x":1757,"y":1,"w":78,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":11,"w":78,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Walking/3.png",
+	"frame": {"x":1600,"y":103,"w":74,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":15,"w":74,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Axe/Walking/4.png",
+	"frame": {"x":1837,"y":1,"w":66,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":11,"w":66,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Idle/1.png",
+	"frame": {"x":221,"y":266,"w":70,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Idle/2.png",
+	"frame": {"x":453,"y":909,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Idle/3.png",
+	"frame": {"x":702,"y":901,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Idle/4.png",
+	"frame": {"x":217,"y":421,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Idle/5.png",
+	"frame": {"x":217,"y":508,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Walking/1.png",
+	"frame": {"x":308,"y":274,"w":66,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Walking/2.png",
+	"frame": {"x":69,"y":531,"w":66,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":11,"w":66,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Walking/3.png",
+	"frame": {"x":395,"y":274,"w":66,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Disarmed/Walking/4.png",
+	"frame": {"x":547,"y":191,"w":58,"h":89},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":11,"w":58,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Dying/1.png",
+	"frame": {"x":1842,"y":503,"w":50,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":15,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Dying/2.png",
+	"frame": {"x":1842,"y":563,"w":50,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":27,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Dying/3.png",
+	"frame": {"x":1783,"y":974,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":43,"w":50,"h":57},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Dying/4.png",
+	"frame": {"x":1841,"y":775,"w":50,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":35,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Dying/5.png",
+	"frame": {"x":1835,"y":974,"w":50,"h":57},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":43,"w":50,"h":57},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Attack/1.png",
+	"frame": {"x":77,"y":327,"w":66,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":66,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Attack/2.png",
+	"frame": {"x":468,"y":123,"w":77,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":11,"w":77,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Attack/3.png",
+	"frame": {"x":629,"y":274,"w":66,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Idle/1.png",
+	"frame": {"x":217,"y":595,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Idle/2.png",
+	"frame": {"x":774,"y":901,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Idle/3.png",
+	"frame": {"x":370,"y":981,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Idle/4.png",
+	"frame": {"x":217,"y":682,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Idle/5.png",
+	"frame": {"x":217,"y":769,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Shield_Mode/0.png",
+	"frame": {"x":369,"y":505,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Shield_Mode/1.png",
+	"frame": {"x":442,"y":981,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Walking/1.png",
+	"frame": {"x":684,"y":342,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Walking/2.png",
+	"frame": {"x":1,"y":735,"w":70,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":11,"w":70,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Walking/3.png",
+	"frame": {"x":752,"y":342,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight2/Sword/Walking/4.png",
+	"frame": {"x":69,"y":622,"w":66,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":11,"w":66,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Attack/1.png",
+	"frame": {"x":1,"y":225,"w":74,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":74,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Attack/2.png",
+	"frame": {"x":1,"y":1008,"w":69,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":69,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Attack/3.png",
+	"frame": {"x":441,"y":505,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Idle/1.png",
+	"frame": {"x":720,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Idle/2.png",
+	"frame": {"x":1762,"y":92,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Idle/3.png",
+	"frame": {"x":721,"y":190,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Idle/4.png",
+	"frame": {"x":800,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Idle/5.png",
+	"frame": {"x":880,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Shield_Mode/0.png",
+	"frame": {"x":960,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Shield_Mode/1.png",
+	"frame": {"x":514,"y":981,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Walking/1.png",
+	"frame": {"x":801,"y":190,"w":74,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":15,"w":74,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Walking/2.png",
+	"frame": {"x":229,"y":123,"w":78,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":11,"w":78,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Walking/3.png",
+	"frame": {"x":888,"y":190,"w":74,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":15,"w":74,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Axe/Walking/4.png",
+	"frame": {"x":73,"y":713,"w":62,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":11,"w":62,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Idle/1.png",
+	"frame": {"x":289,"y":667,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Idle/2.png",
+	"frame": {"x":586,"y":986,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Idle/3.png",
+	"frame": {"x":741,"y":984,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Idle/4.png",
+	"frame": {"x":289,"y":754,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Idle/5.png",
+	"frame": {"x":361,"y":667,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Walking/1.png",
+	"frame": {"x":493,"y":754,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Walking/2.png",
+	"frame": {"x":73,"y":804,"w":66,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":11,"w":66,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Walking/3.png",
+	"frame": {"x":557,"y":667,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Disarmed/Walking/4.png",
+	"frame": {"x":229,"y":214,"w":50,"h":89},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":50,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Dying/1.png",
+	"frame": {"x":993,"y":576,"w":50,"h":58},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Dying/2.png",
+	"frame": {"x":1776,"y":854,"w":50,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":27,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Dying/3.png",
+	"frame": {"x":1266,"y":1007,"w":50,"h":57},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":43,"w":50,"h":57},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Dying/4.png",
+	"frame": {"x":1783,"y":914,"w":50,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":35,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Dying/5.png",
+	"frame": {"x":1325,"y":1007,"w":50,"h":57},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":43,"w":50,"h":57},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Attack/1.png",
+	"frame": {"x":153,"y":225,"w":66,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":66,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Attack/2.png",
+	"frame": {"x":73,"y":895,"w":69,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":69,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Attack/3.png",
+	"frame": {"x":561,"y":754,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Idle/1.png",
+	"frame": {"x":361,"y":754,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Idle/2.png",
+	"frame": {"x":951,"y":266,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Idle/3.png",
+	"frame": {"x":1034,"y":266,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Idle/4.png",
+	"frame": {"x":557,"y":251,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Idle/5.png",
+	"frame": {"x":509,"y":501,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Shield_Mode/0.png",
+	"frame": {"x":485,"y":667,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Shield_Mode/1.png",
+	"frame": {"x":835,"y":576,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Walking/1.png",
+	"frame": {"x":625,"y":661,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Walking/2.png",
+	"frame": {"x":1,"y":826,"w":70,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":11,"w":70,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Walking/3.png",
+	"frame": {"x":629,"y":748,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight3/Sword/Walking/4.png",
+	"frame": {"x":320,"y":214,"w":58,"h":89},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":58,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Attack/1.png",
+	"frame": {"x":77,"y":123,"w":74,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":74,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Attack/2.png",
+	"frame": {"x":144,"y":864,"w":69,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":69,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Attack/3.png",
+	"frame": {"x":769,"y":735,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Idle/1.png",
+	"frame": {"x":1040,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Idle/2.png",
+	"frame": {"x":72,"y":1023,"w":78,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Idle/3.png",
+	"frame": {"x":155,"y":1023,"w":78,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Idle/4.png",
+	"frame": {"x":1120,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Idle/5.png",
+	"frame": {"x":1200,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Shield_Mode/0.png",
+	"frame": {"x":1280,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Shield_Mode/1.png",
+	"frame": {"x":836,"y":648,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Walking/1.png",
+	"frame": {"x":975,"y":190,"w":74,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":15,"w":74,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Walking/2.png",
+	"frame": {"x":309,"y":123,"w":78,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":11,"w":78,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Walking/3.png",
+	"frame": {"x":1062,"y":190,"w":74,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":15,"w":74,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Axe/Walking/4.png",
+	"frame": {"x":1842,"y":92,"w":62,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":11,"w":62,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Idle/1.png",
+	"frame": {"x":581,"y":502,"w":70,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Idle/2.png",
+	"frame": {"x":837,"y":731,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Idle/3.png",
+	"frame": {"x":853,"y":814,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Idle/4.png",
+	"frame": {"x":589,"y":574,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Idle/5.png",
+	"frame": {"x":668,"y":504,"w":70,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Walking/1.png",
+	"frame": {"x":289,"y":841,"w":66,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Walking/2.png",
+	"frame": {"x":1240,"y":190,"w":66,"h":89},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":11,"w":66,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Walking/3.png",
+	"frame": {"x":376,"y":841,"w":66,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Disarmed/Walking/4.png",
+	"frame": {"x":433,"y":667,"w":50,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":50,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Dying/1.png",
+	"frame": {"x":1828,"y":854,"w":50,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Dying/2.png",
+	"frame": {"x":1835,"y":914,"w":50,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":27,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Dying/3.png",
+	"frame": {"x":1384,"y":1007,"w":50,"h":57},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":43,"w":50,"h":57},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Dying/4.png",
+	"frame": {"x":1206,"y":1007,"w":50,"h":58},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":35,"w":50,"h":58},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Dying/5.png",
+	"frame": {"x":1443,"y":1007,"w":50,"h":57},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":43,"w":50,"h":57},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Attack/1.png",
+	"frame": {"x":1,"y":531,"w":66,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":66,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Attack/2.png",
+	"frame": {"x":1149,"y":190,"w":69,"h":89},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":69,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Attack/3.png",
+	"frame": {"x":463,"y":841,"w":66,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Idle/1.png",
+	"frame": {"x":755,"y":504,"w":70,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Idle/2.png",
+	"frame": {"x":1240,"y":258,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Idle/3.png",
+	"frame": {"x":1323,"y":258,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Idle/4.png",
+	"frame": {"x":661,"y":576,"w":70,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Idle/5.png",
+	"frame": {"x":748,"y":576,"w":70,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Shield_Mode/0.png",
+	"frame": {"x":693,"y":648,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Shield_Mode/1.png",
+	"frame": {"x":908,"y":648,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Walking/1.png",
+	"frame": {"x":536,"y":912,"w":66,"h":85},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Walking/2.png",
+	"frame": {"x":1,"y":917,"w":70,"h":89},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":11,"w":70,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Walking/3.png",
+	"frame": {"x":238,"y":1014,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight4/Sword/Walking/4.png",
+	"frame": {"x":411,"y":214,"w":58,"h":89},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":58,"h":89},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Attack/1.png",
+	"frame": {"x":1681,"y":1,"w":74,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":74,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Attack/2.png",
+	"frame": {"x":765,"y":648,"w":69,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":69,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Attack/3.png",
+	"frame": {"x":909,"y":731,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Idle/1.png",
+	"frame": {"x":213,"y":338,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Idle/2.png",
+	"frame": {"x":449,"y":422,"w":78,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":23,"w":78,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Idle/3.png",
+	"frame": {"x":529,"y":422,"w":78,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":23,"w":78,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Idle/4.png",
+	"frame": {"x":293,"y":342,"w":78,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Idle/5.png",
+	"frame": {"x":376,"y":342,"w":78,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Shield_Mode/0.png",
+	"frame": {"x":289,"y":422,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Shield_Mode/1.png",
+	"frame": {"x":1770,"y":325,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Walking/1.png",
+	"frame": {"x":289,"y":505,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Walking/2.png",
+	"frame": {"x":1360,"y":103,"w":78,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":15,"w":78,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Walking/3.png",
+	"frame": {"x":369,"y":422,"w":78,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":19,"w":78,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Axe/Walking/4.png",
+	"frame": {"x":306,"y":988,"w":62,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":15,"w":62,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Idle/1.png",
+	"frame": {"x":925,"y":814,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Idle/2.png",
+	"frame": {"x":1770,"y":404,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Idle/3.png",
+	"frame": {"x":1304,"y":552,"w":70,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Idle/4.png",
+	"frame": {"x":1000,"y":338,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Idle/5.png",
+	"frame": {"x":1072,"y":338,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Walking/1.png",
+	"frame": {"x":1144,"y":340,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Walking/2.png",
+	"frame": {"x":820,"y":342,"w":66,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":66,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Walking/3.png",
+	"frame": {"x":980,"y":648,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Disarmed/Walking/4.png",
+	"frame": {"x":948,"y":342,"w":50,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":50,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Dying/1.png",
+	"frame": {"x":502,"y":214,"w":42,"h":50},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":19,"w":42,"h":50},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Dying/2.png",
+	"frame": {"x":1048,"y":1052,"w":42,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":35,"w":42,"h":50},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Dying/3.png",
+	"frame": {"x":960,"y":1052,"w":42,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":51,"w":42,"h":49},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Dying/4.png",
+	"frame": {"x":785,"y":1059,"w":42,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":43,"w":42,"h":50},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Dying/5.png",
+	"frame": {"x":1004,"y":1052,"w":42,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":51,"w":42,"h":49},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Attack/1.png",
+	"frame": {"x":69,"y":429,"w":66,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":66,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Attack/2.png",
+	"frame": {"x":219,"y":927,"w":69,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":69,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Attack/3.png",
+	"frame": {"x":981,"y":731,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Idle/1.png",
+	"frame": {"x":997,"y":814,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Idle/2.png",
+	"frame": {"x":1052,"y":633,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Idle/3.png",
+	"frame": {"x":1053,"y":712,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Idle/4.png",
+	"frame": {"x":846,"y":901,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Idle/5.png",
+	"frame": {"x":918,"y":897,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Shield_Mode/0.png",
+	"frame": {"x":990,"y":897,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Shield_Mode/1.png",
+	"frame": {"x":1069,"y":791,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Walking/1.png",
+	"frame": {"x":960,"y":980,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Walking/2.png",
+	"frame": {"x":697,"y":735,"w":70,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":15,"w":70,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Walking/3.png",
+	"frame": {"x":1062,"y":897,"w":70,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight5/Sword/Walking/4.png",
+	"frame": {"x":888,"y":342,"w":58,"h":85},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":15,"w":58,"h":85},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Attack/1.png",
+	"frame": {"x":1,"y":327,"w":74,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":74,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Attack/2.png",
+	"frame": {"x":1124,"y":633,"w":69,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":69,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Attack/3.png",
+	"frame": {"x":1546,"y":258,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Idle/1.png",
+	"frame": {"x":840,"y":429,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Idle/2.png",
+	"frame": {"x":1762,"y":175,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Idle/3.png",
+	"frame": {"x":1478,"y":333,"w":78,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":31,"w":78,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Idle/4.png",
+	"frame": {"x":1466,"y":258,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Idle/5.png",
+	"frame": {"x":1549,"y":333,"w":78,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Shield_Mode/0.png",
+	"frame": {"x":1614,"y":258,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Shield_Mode/1.png",
+	"frame": {"x":1450,"y":630,"w":70,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Walking/1.png",
+	"frame": {"x":801,"y":266,"w":74,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":74,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Walking/2.png",
+	"frame": {"x":605,"y":342,"w":78,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":23,"w":78,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Walking/3.png",
+	"frame": {"x":876,"y":266,"w":74,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":74,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Axe/Walking/4.png",
+	"frame": {"x":1842,"y":183,"w":62,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":23,"w":62,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Idle/1.png",
+	"frame": {"x":1694,"y":258,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Idle/2.png",
+	"frame": {"x":1521,"y":630,"w":70,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Idle/3.png",
+	"frame": {"x":1592,"y":631,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Idle/4.png",
+	"frame": {"x":1069,"y":421,"w":70,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Idle/5.png",
+	"frame": {"x":1069,"y":493,"w":70,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Walking/1.png",
+	"frame": {"x":1069,"y":565,"w":66,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Walking/2.png",
+	"frame": {"x":1141,"y":791,"w":66,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Walking/3.png",
+	"frame": {"x":1462,"y":562,"w":66,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Disarmed/Walking/4.png",
+	"frame": {"x":1267,"y":627,"w":50,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":50,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Dying/1.png",
+	"frame": {"x":1241,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":27,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Dying/2.png",
+	"frame": {"x":1289,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":39,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Dying/3.png",
+	"frame": {"x":1573,"y":1054,"w":42,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":55,"w":42,"h":45},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Dying/4.png",
+	"frame": {"x":1337,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":47,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Dying/5.png",
+	"frame": {"x":1634,"y":1010,"w":42,"h":45},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":55,"w":42,"h":45},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Attack/1.png",
+	"frame": {"x":145,"y":327,"w":66,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":66,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Attack/2.png",
+	"frame": {"x":1125,"y":712,"w":69,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":69,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Attack/3.png",
+	"frame": {"x":1537,"y":562,"w":66,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Idle/1.png",
+	"frame": {"x":1134,"y":870,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Idle/2.png",
+	"frame": {"x":1195,"y":627,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Idle/3.png",
+	"frame": {"x":1695,"y":413,"w":70,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Idle/4.png",
+	"frame": {"x":1622,"y":488,"w":70,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Idle/5.png",
+	"frame": {"x":1196,"y":706,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Shield_Mode/0.png",
+	"frame": {"x":1209,"y":785,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Shield_Mode/1.png",
+	"frame": {"x":1134,"y":949,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Walking/1.png",
+	"frame": {"x":1268,"y":706,"w":66,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Walking/2.png",
+	"frame": {"x":1240,"y":330,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Walking/3.png",
+	"frame": {"x":1281,"y":785,"w":66,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight6/Sword/Walking/4.png",
+	"frame": {"x":1406,"y":258,"w":58,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":58,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Attack/1.png",
+	"frame": {"x":77,"y":225,"w":74,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":74,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Attack/2.png",
+	"frame": {"x":1336,"y":703,"w":69,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":69,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Attack/3.png",
+	"frame": {"x":1743,"y":632,"w":66,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Idle/1.png",
+	"frame": {"x":1651,"y":183,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Idle/2.png",
+	"frame": {"x":1624,"y":333,"w":78,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Idle/3.png",
+	"frame": {"x":1699,"y":333,"w":78,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":31,"w":78,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Idle/4.png",
+	"frame": {"x":1227,"y":402,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Idle/5.png",
+	"frame": {"x":1307,"y":402,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Shield_Mode/0.png",
+	"frame": {"x":1387,"y":416,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Shield_Mode/1.png",
+	"frame": {"x":1770,"y":483,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Walking/1.png",
+	"frame": {"x":1766,"y":250,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":74,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Walking/2.png",
+	"frame": {"x":701,"y":822,"w":78,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":23,"w":78,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Walking/3.png",
+	"frame": {"x":1467,"y":416,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":74,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Axe/Walking/4.png",
+	"frame": {"x":1842,"y":262,"w":62,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":23,"w":62,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Idle/1.png",
+	"frame": {"x":1697,"y":485,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Idle/2.png",
+	"frame": {"x":1818,"y":629,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Idle/3.png",
+	"frame": {"x":992,"y":504,"w":70,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Idle/4.png",
+	"frame": {"x":1769,"y":779,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Idle/5.png",
+	"frame": {"x":1770,"y":554,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Walking/1.png",
+	"frame": {"x":1118,"y":1020,"w":66,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Walking/2.png",
+	"frame": {"x":1349,"y":782,"w":66,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Walking/3.png",
+	"frame": {"x":992,"y":429,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Disarmed/Walking/4.png",
+	"frame": {"x":1319,"y":624,"w":50,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":50,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Dying/1.png",
+	"frame": {"x":1385,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":27,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Dying/2.png",
+	"frame": {"x":1433,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":39,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Dying/3.png",
+	"frame": {"x":1617,"y":1054,"w":42,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":55,"w":42,"h":45},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Dying/4.png",
+	"frame": {"x":1481,"y":1059,"w":42,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":47,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Dying/5.png",
+	"frame": {"x":1681,"y":1010,"w":42,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":55,"w":42,"h":45},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Attack/1.png",
+	"frame": {"x":547,"y":123,"w":66,"h":100},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":66,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Attack/2.png",
+	"frame": {"x":1407,"y":702,"w":69,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":69,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Attack/3.png",
+	"frame": {"x":1209,"y":864,"w":66,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Idle/1.png",
+	"frame": {"x":1371,"y":630,"w":70,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Idle/2.png",
+	"frame": {"x":1417,"y":781,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Idle/3.png",
+	"frame": {"x":1810,"y":700,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Idle/4.png",
+	"frame": {"x":1206,"y":932,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Idle/5.png",
+	"frame": {"x":1478,"y":702,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Shield_Mode/0.png",
+	"frame": {"x":1489,"y":781,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Shield_Mode/1.png",
+	"frame": {"x":1284,"y":864,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Walking/1.png",
+	"frame": {"x":1550,"y":702,"w":66,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Walking/2.png",
+	"frame": {"x":1323,"y":330,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Walking/3.png",
+	"frame": {"x":1561,"y":781,"w":66,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight7/Sword/Walking/4.png",
+	"frame": {"x":1842,"y":420,"w":58,"h":81},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":58,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Attack/1.png",
+	"frame": {"x":153,"y":123,"w":74,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":74,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Attack/2.png",
+	"frame": {"x":1464,"y":491,"w":69,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":69,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Attack/3.png",
+	"frame": {"x":1356,"y":861,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Idle/1.png",
+	"frame": {"x":1144,"y":472,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Idle/2.png",
+	"frame": {"x":1224,"y":477,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Idle/3.png",
+	"frame": {"x":1384,"y":491,"w":78,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":31,"w":78,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Idle/4.png",
+	"frame": {"x":1304,"y":477,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Idle/5.png",
+	"frame": {"x":1144,"y":547,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Shield_Mode/0.png",
+	"frame": {"x":1224,"y":552,"w":78,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":27,"w":78,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Shield_Mode/1.png",
+	"frame": {"x":1353,"y":936,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Walking/1.png",
+	"frame": {"x":1543,"y":413,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":74,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Walking/2.png",
+	"frame": {"x":290,"y":909,"w":78,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":23,"w":78,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Walking/3.png",
+	"frame": {"x":1619,"y":413,"w":74,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":74,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Axe/Walking/4.png",
+	"frame": {"x":1842,"y":341,"w":62,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":23,"w":62,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Idle/1.png",
+	"frame": {"x":1278,"y":935,"w":70,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Idle/2.png",
+	"frame": {"x":1500,"y":935,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Idle/3.png",
+	"frame": {"x":1572,"y":935,"w":70,"h":69},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Idle/4.png",
+	"frame": {"x":1424,"y":860,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Idle/5.png",
+	"frame": {"x":1496,"y":860,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Walking/1.png",
+	"frame": {"x":1640,"y":860,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Walking/2.png",
+	"frame": {"x":1618,"y":702,"w":66,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Walking/3.png",
+	"frame": {"x":1644,"y":935,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Disarmed/Walking/4.png",
+	"frame": {"x":1758,"y":700,"w":50,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":50,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Dying/1.png",
+	"frame": {"x":1502,"y":1006,"w":42,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":27,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Dying/2.png",
+	"frame": {"x":1546,"y":1006,"w":42,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":39,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Dying/3.png",
+	"frame": {"x":1725,"y":1005,"w":42,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":55,"w":42,"h":45},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Dying/4.png",
+	"frame": {"x":1590,"y":1006,"w":42,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":47,"y":47,"w":42,"h":46},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Dying/5.png",
+	"frame": {"x":1661,"y":1057,"w":42,"h":45},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":55,"w":42,"h":45},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Attack/1.png",
+	"frame": {"x":1,"y":633,"w":66,"h":100},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":0,"w":66,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Attack/2.png",
+	"frame": {"x":1612,"y":560,"w":69,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":23,"w":69,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Attack/3.png",
+	"frame": {"x":1708,"y":858,"w":66,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":27,"w":66,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Idle/1.png",
+	"frame": {"x":1543,"y":488,"w":70,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Idle/2.png",
+	"frame": {"x":1691,"y":560,"w":70,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Idle/3.png",
+	"frame": {"x":1568,"y":860,"w":70,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Idle/4.png",
+	"frame": {"x":1425,"y":935,"w":70,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":70,"h":73},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Idle/5.png",
+	"frame": {"x":1629,"y":781,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Shield_Mode/0.png",
+	"frame": {"x":1686,"y":700,"w":70,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":23,"w":70,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Shield_Mode/1.png",
+	"frame": {"x":1712,"y":933,"w":70,"h":69},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":31,"w":70,"h":69},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Walking/1.png",
+	"frame": {"x":1664,"y":632,"w":66,"h":77},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Walking/2.png",
+	"frame": {"x":1497,"y":186,"w":70,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":19,"w":70,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Walking/3.png",
+	"frame": {"x":1701,"y":779,"w":66,"h":77},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":23,"w":66,"h":77},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Knight8/Sword/Walking/4.png",
+	"frame": {"x":1144,"y":412,"w":58,"h":81},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":19,"w":58,"h":81},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Plataform/Basic.png",
+	"frame": {"x":1,"y":1,"w":1500,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1500,"h":100},
+	"sourceSize": {"w":1500,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Plataform/dark.png",
+	"frame": {"x":1,"y":103,"w":700,"h":18},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":582,"w":700,"h":18},
+	"sourceSize": {"w":700,"h":600},
+	"pivot": {"x":0.5,"y":0.5}
+},
+{
+	"filename": "Plataform/Plataform.png",
+	"frame": {"x":1503,"y":1,"w":100,"h":100},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":100},
+	"sourceSize": {"w":100,"h":100},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "character_sprites.png",
+	"format": "RGBA8888",
+	"size": {"w":1905,"h":1102},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4e23bab528cdbc60e1bb4bff56b2c4f3:e46e9f2115729c3f810e0691e48ce1d8:2962a31eadc46eea3571a6d69e8105be$"
+}
+}
