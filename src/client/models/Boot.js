@@ -25,7 +25,7 @@ export default class Boot
     {
         this.attackTime = 0
         
-        this.game.physics.startSystem(Phaser.Physics.ARCADE)
+        this.game.physics.startSystem(Phaser.Physics.P2JS)
 
         this.game.world.setBounds(0, 0, 3000, 3000)
  
@@ -38,10 +38,33 @@ export default class Boot
         this.map.addTilesetImage('base', 'tiles')
 
         this.layerFloor = this.map.createLayer('floor')
+        //this.layerStoneTestCollision = this.map.createLayer('stone_test')
+
+        //this.layerStoneTestCollision.resizeWorld()
+        this.layerFloor.resizeWorld()
+
+        this.map.setCollision('stone_test',true)
+
+        let wallsCG = this.game.physics.p2.createCollisionGroup();
+        let playerCG = this.game.physics.p2.createCollisionGroup();
+
+        let walls = this.game.physics.p2.convertCollisionObjects(this.map, 'colision')
+        debugger
+        for(var wall in walls) {
+            debugger
+	        walls[wall].setCollisionGroup(wallsCG);
+	        walls[wall].collides(playerCG);
+	    }
+
+        /*this.layerFloor = this.map.createLayer('floor')
 
         this.layerWallCollision = this.map.createLayer('wall')
 
+        this.layerCofreCollision = this.map.createLayer('cofre')
+
         this.layerStoneCollision = this.map.createLayer('stone_down')
+
+        this.layerStoneTestCollision = this.map.createLayer('stone_test')
 
         this.layerStone = this.map.createLayer('stone_up')
 
@@ -51,21 +74,40 @@ export default class Boot
 
         this.map.setCollisionBetween(1, 100, true, 'stone_down')
 
+        this.map.setCollisionBetween(1, 100, true, 'stone_test')
+
         this.layerFloor.resizeWorld()
 
         this.layerWallCollision.resizeWorld()
 
         this.layerStoneCollision.resizeWorld()
 
+        this.layerCofreCollision.resizeWorld()
+
+        this.layerStoneTestCollision.resizeWorld()
+
         this.layerStone.resizeWorld()
 
         this.layerFire.resizeWorld()
         
-        this.game.physics.arcade.enable([this.hero.getSprite(),this.layerStoneCollision, this.layerWallCollision], Phaser.Physics.ARCADE)
+        //this.game.physics.arcade.enable([this.hero.getSprite(),this.layerStoneTestCollision,this.layerStoneCollision, this.layerWallCollision,this.layerCofreCollision], Phaser.Physics.ARCADE)
+        this.game.physics.arcade.enable([this.hero.getSprite(),this.layerStoneTestCollision,this.layerCofreCollision], Phaser.Physics.ARCADE)
+        */
+        this.game.physics.p2.enable(this.hero.getSprite(),true)
 
         this.hero.addAnimation()
 
+        this.hero.getSprite().body.fixedRotation = true
+
         this.hero.getSprite().body.collideWorldBounds = true
+
+        this.hero.getSprite().body.setCollisionGroup(playerCG)
+
+        this.hero.getSprite().body.collides(wallsCG, function(){
+
+            let x = 1+1
+
+        });
 
         this.timeKeyDown = null
 
@@ -85,8 +127,28 @@ export default class Boot
 
     update()
     {
-        this.game.physics.arcade.collide(this.hero.getSprite(), this.layerStoneCollision)
-        this.game.physics.arcade.collide(this.hero.getSprite(), this.layerWallCollision)
+        //this.game.physics.arcade.collide(this.hero.getSprite(), this.layerStoneCollision)
+        //this.game.physics.arcade.collide(this.hero.getSprite(), this.layerWallCollision)
+        
+        this.hero.getSprite().body.setZeroVelocity()
+
+        this.hero.setOnKeyPress(false)
+
+        if (this.cursors.left.isDown)
+            this.hero.moveLeft()
+        
+        if (this.cursors.right.isDown)
+            this.hero.moveRight()
+        
+        if (this.cursors.up.isDown)
+            this.hero.moveUp()
+        
+        if (this.cursors.down.isDown)
+            this.hero.moveDown()
+
+        /*
+        this.game.physics.arcade.collide(this.hero.getSprite(), this.layerStoneTestCollision)
+        this.game.physics.arcade.collide(this.hero.getSprite(), this.layerCofreCollision)
 
         this.hero.setVelocityZero()
 
@@ -122,6 +184,6 @@ export default class Boot
         if(this.hero.getOnKeyPress() == false)
             this.hero.stop()
 
-        
+     */   
     }
 }

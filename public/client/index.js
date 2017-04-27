@@ -1,2 +1,540 @@
-!function a(b,c,d){function e(g,h){if(!c[g]){if(!b[g]){var i="function"==typeof require&&require;if(!h&&i)return i(g,!0);if(f)return f(g,!0);var j=new Error("Cannot find module '"+g+"'");throw j.code="MODULE_NOT_FOUND",j}var k=c[g]={exports:{}};b[g][0].call(k.exports,function(a){var c=b[g][1][a];return e(c?c:a)},k,k.exports,a,b,c,d)}return c[g].exports}for(var f="function"==typeof require&&require,g=0;g<d.length;g++)e(d[g]);return e}({1:[function(a,b,c){"use strict";function d(a){return a&&a.__esModule?a:{default:a}}var e=a("./models/Game"),f=d(e),g=a("./models/Boot"),h=d(g),i=(new f.default).get(),j=new h.default(i);i.state.add("boot",j),i.state.start("boot")},{"./models/Boot":2,"./models/Game":3}],2:[function(a,b,c){"use strict";function d(a){return a&&a.__esModule?a:{default:a}}function e(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(c,"__esModule",{value:!0});var f=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}(),g=a("./factory/HeroWidgetFactory"),h=d(g),i=a("./factory/EnemyWidgetFactory"),j=d(i),k=function(){function a(){e(this,a)}return f(a,[{key:"contructor",value:function(a){this.game=a}},{key:"preload",value:function(){this.hero=h.default.CreateCharacter(this.game),this.enemy=j.default.CreateCharacter(this.game),this.game.load.tilemap("dungeon","../../design/map.json",null,Phaser.Tilemap.TILED_JSON),this.game.load.image("tiles","../../design/map.png")}},{key:"create",value:function(){this.attackTime=0,this.game.physics.startSystem(Phaser.Physics.ARCADE),this.game.world.setBounds(0,0,3e3,3e3),this.cursors=this.game.input.keyboard.createCursorKeys(),this.keyboard=this.game.input.keyboard,this.map=this.game.add.tilemap("dungeon"),this.map.addTilesetImage("base","tiles"),this.layerFloor=this.map.createLayer("floor"),this.layerWallCollision=this.map.createLayer("wall"),this.layerStoneCollision=this.map.createLayer("stone_down"),this.layerStone=this.map.createLayer("stone_up"),this.layerFire=this.map.createLayer("fire"),this.map.setCollisionBetween(1,100,!0,"wall"),this.map.setCollisionBetween(1,100,!0,"stone_down"),this.layerFloor.resizeWorld(),this.layerWallCollision.resizeWorld(),this.layerStoneCollision.resizeWorld(),this.layerStone.resizeWorld(),this.layerFire.resizeWorld(),this.game.physics.arcade.enable([this.hero.getSprite(),this.layerStoneCollision,this.layerWallCollision],Phaser.Physics.ARCADE),this.hero.addAnimation(),this.hero.getSprite().body.collideWorldBounds=!0,this.timeKeyDown=null;var a=this.game.input.keyboard.addKey(Phaser.Keyboard.A);a.onDown.add(function(){this.timeKeyDown=this.game.time.now},this),a.onUp.add(function(){},this),this.game.camera.follow(this.hero.getSprite(),Phaser.Camera.FOLLOW_LOCKON,.1,.1)}},{key:"update",value:function(){this.game.physics.arcade.collide(this.hero.getSprite(),this.layerStoneCollision),this.game.physics.arcade.collide(this.hero.getSprite(),this.layerWallCollision),this.hero.setVelocityZero(),this.hero.setOnKeyPress(!1),this.cursors.left.isDown&&this.hero.moveLeft(),this.cursors.right.isDown&&this.hero.moveRight(),this.cursors.up.isDown&&this.hero.moveUp(),this.cursors.down.isDown&&this.hero.moveDown(),this.keyboard.isDown(Phaser.Keyboard.A)&&this.cursors.left.isDown&&this.game.time.now-this.timeKeyDown<150?this.hero.attack(!0):this.keyboard.isDown(Phaser.Keyboard.A)&&this.cursors.right.isDown&&this.game.time.now-this.timeKeyDown<150?this.hero.attack(!0):this.keyboard.isDown(Phaser.Keyboard.A)&&this.game.time.now-this.timeKeyDown<150&&this.hero.attack(!1),0==this.hero.getOnKeyPress()&&this.hero.stop()}}]),a}();c.default=k},{"./factory/EnemyWidgetFactory":6,"./factory/HeroWidgetFactory":7}],3:[function(a,b,c){"use strict";function d(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(c,"__esModule",{value:!0});var e=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}(),f=function(){function a(b,c,e){d(this,a),this.game=new Phaser.Game(600,600,Phaser.AUTO,"game-area")}return e(a,[{key:"get",value:function(){return this.game}}]),a}();c.default=f},{}],4:[function(a,b,c){"use strict";function d(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(c,"__esModule",{value:!0});var e=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}(),f=200,g=200,h=function(){function a(b){d(this,a),this.game=b,this.game.load.spritesheet("knight-walk","./assets/axe_animation.png",100,100),this.faceLeft=!1,this.sprite=null,this.onKeyPress=!1}return e(a,[{key:"getSprite",value:function(){return null==this.sprite&&(this.sprite=this.game.add.sprite(50,60,"knight-walk")),this.sprite}},{key:"addAnimation",value:function(){this.sprite.scale.setTo(1/1.8,1/1.8),this.sprite.animations.add("walk-right",[3,4,3,5],9,!0),this.sprite.animations.add("walk-left",[7,6,7,8],9,!0),this.sprite.animations.add("attack-right",[0,1,2],10,!0),this.sprite.animations.add("attack-left",[9,10,11],10,!0),this.sprite.animations.add("attack-right-walk",[1,2],10,!0),this.sprite.animations.add("attack-left-walk",[10,11],10,!0)}},{key:"jump",value:function(){}},{key:"run",value:function(){}},{key:"moveLeft",value:function(){this.onKeyPress=!0,this.faceLeft=!0,this.sprite.body.velocity.x=-f,this.sprite.animations.play("walk-left")}},{key:"moveRight",value:function(){this.onKeyPress=!0,this.faceLeft=!1,this.sprite.body.velocity.x=f,this.sprite.animations.play("walk-right")}},{key:"moveUp",value:function(){this.onKeyPress=!0,this.sprite.body.velocity.y=-g,this.faceLeft?this.sprite.animations.play("walk-left"):this.sprite.animations.play("walk-right")}},{key:"moveDown",value:function(){this.onKeyPress=!0,this.sprite.body.velocity.y=g,this.faceLeft?this.sprite.animations.play("walk-left"):this.sprite.animations.play("walk-right")}},{key:"getOnKeyPress",value:function(){return this.onKeyPress}},{key:"setOnKeyPress",value:function(a){this.onKeyPress=a}},{key:"attack",value:function(a){this.onKeyPress=!0,console.log("iswalking.."+a),a&&this.faceLeft?this.sprite.animations.play("attack-left-walk"):a&&!this.faceLeft?this.sprite.animations.play("attack-right-walk"):this.faceLeft?(this.sprite.animations.play("attack-left"),this.sprite.animations.currentAnim.onComplete.add(function(){this.sprite.frame=7,console.log("attack-left!")})):(this.sprite.animations.play("attack-right"),this.sprite.animations.currentAnim.onComplete.add(function(){this.sprite.frame=3,console.log("attack-right!")}))}},{key:"stop",value:function(){this.sprite.animations.stop()}},{key:"setVelocityZero",value:function(){this.sprite.body.velocity.x=0,this.sprite.body.velocity.y=0}}]),a}();c.default=h},{}],5:[function(a,b,c){"use strict";function d(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}Object.defineProperty(c,"__esModule",{value:!0});var e=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}(),f=function(){function a(){d(this,a),console.log("abstract factory constructor..")}return e(a,[{key:"CreateCharacter",value:function(a){}}]),a}();c.default=f},{}],6:[function(a,b,c){"use strict";function d(a){return a&&a.__esModule?a:{default:a}}function e(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}function f(a,b){if(!a)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!b||"object"!=typeof b&&"function"!=typeof b?a:b}function g(a,b){if("function"!=typeof b&&null!==b)throw new TypeError("Super expression must either be null or a function, not "+typeof b);a.prototype=Object.create(b&&b.prototype,{constructor:{value:a,enumerable:!1,writable:!0,configurable:!0}}),b&&(Object.setPrototypeOf?Object.setPrototypeOf(a,b):a.__proto__=b)}Object.defineProperty(c,"__esModule",{value:!0});var h=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}(),i=a("./CharacterWidgetFactory"),j=d(i),k=function(a){function b(){return e(this,b),f(this,(b.__proto__||Object.getPrototypeOf(b)).call(this))}return g(b,a),h(b,null,[{key:"CreateCharacter",value:function(a){console.log("create enemy..")}}]),b}(j.default);c.default=k},{"./CharacterWidgetFactory":5}],7:[function(a,b,c){"use strict";function d(a){return a&&a.__esModule?a:{default:a}}function e(a,b){if(!(a instanceof b))throw new TypeError("Cannot call a class as a function")}function f(a,b){if(!a)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return!b||"object"!=typeof b&&"function"!=typeof b?a:b}function g(a,b){if("function"!=typeof b&&null!==b)throw new TypeError("Super expression must either be null or a function, not "+typeof b);a.prototype=Object.create(b&&b.prototype,{constructor:{value:a,enumerable:!1,writable:!0,configurable:!0}}),b&&(Object.setPrototypeOf?Object.setPrototypeOf(a,b):a.__proto__=b)}Object.defineProperty(c,"__esModule",{value:!0});var h=function(){function a(a,b){for(var c=0;c<b.length;c++){var d=b[c];d.enumerable=d.enumerable||!1,d.configurable=!0,"value"in d&&(d.writable=!0),Object.defineProperty(a,d.key,d)}}return function(b,c,d){return c&&a(b.prototype,c),d&&a(b,d),b}}(),i=a("./CharacterWidgetFactory"),j=d(i),k=a("../character/Hero"),l=d(k),m=function(a){function b(){return e(this,b),f(this,(b.__proto__||Object.getPrototypeOf(b)).call(this))}return g(b,a),h(b,null,[{key:"CreateCharacter",value:function(a){return console.log("create hero.."),new l.default(a)}}]),b}(j.default);c.default=m},{"../character/Hero":4,"./CharacterWidgetFactory":5}]},{},[1]);
-//# sourceMappingURL=../../sourceMap.map
+(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
+'use strict';
+
+var _Game = require('./models/Game');
+
+var _Game2 = _interopRequireDefault(_Game);
+
+var _Boot = require('./models/Boot');
+
+var _Boot2 = _interopRequireDefault(_Boot);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+//const mappers = require('./helpers/render')
+
+var game = new _Game2.default().get();
+var boot = new _Boot2.default(game);
+
+game.state.add('boot', boot);
+
+game.state.start('boot');
+
+//import Phaser from 'phaser-ce'
+
+
+/*
+const world = require('./helpers/world')
+import Hero from './models/character/Hero'
+
+let wd = world.createWorld()
+
+document.getElementById('my_canvas').addEventListener('mousemove', onMouseMove)
+
+function onMouseMove(event)
+{
+    let hero = new Hero(wd, event.clientX,  event.clientY)
+    //console.log(`mouseMoveX :: ${mouse.x}`)
+    //console.log(`mouseMoveY :: ${mouse.y}`)
+} 
+
+setInterval(function(){
+    world.updateFrames(wd)
+},1000/60)*/
+
+//import Spritesheet from './models/mapper/Spritesheet'
+
+
+//const mappers = require('./helpers')
+//console.dir(mappers.createMap())
+//mappers.listenInputs()
+
+/*let hero = new Hero()
+let wd = hero.getWorld()
+
+setInterval(function(){
+	wd.Step(1/60,10,10);
+    wd.DrawDebugData();
+    wd.ClearForces();
+},1000/60);*/
+
+//let spriteSheet = new Spritesheet();
+//spriteSheet.parseAtlasDefinition('./assets/characters.json','./assets/character_sprites.png');
+
+},{"./models/Boot":2,"./models/Game":3}],2:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _HeroWidgetFactory = require('./factory/HeroWidgetFactory');
+
+var _HeroWidgetFactory2 = _interopRequireDefault(_HeroWidgetFactory);
+
+var _EnemyWidgetFactory = require('./factory/EnemyWidgetFactory');
+
+var _EnemyWidgetFactory2 = _interopRequireDefault(_EnemyWidgetFactory);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Boot = function () {
+    function Boot() {
+        _classCallCheck(this, Boot);
+    }
+
+    _createClass(Boot, [{
+        key: 'contructor',
+        value: function contructor(game) {
+            this.game = game;
+        }
+    }, {
+        key: 'preload',
+        value: function preload() {
+            this.hero = _HeroWidgetFactory2.default.CreateCharacter(this.game);
+
+            this.enemy = _EnemyWidgetFactory2.default.CreateCharacter(this.game);
+
+            this.game.load.tilemap('dungeon', '../../design/map.json', null, Phaser.Tilemap.TILED_JSON);
+
+            this.game.load.image('tiles', '../../design/map.png');
+        }
+    }, {
+        key: 'create',
+        value: function create() {
+            this.attackTime = 0;
+
+            this.game.physics.startSystem(Phaser.Physics.P2JS);
+
+            this.game.world.setBounds(0, 0, 3000, 3000);
+
+            this.cursors = this.game.input.keyboard.createCursorKeys();
+
+            this.keyboard = this.game.input.keyboard;
+
+            this.map = this.game.add.tilemap('dungeon');
+
+            this.map.addTilesetImage('base', 'tiles');
+
+            this.layerFloor = this.map.createLayer('floor');
+            //this.layerStoneTestCollision = this.map.createLayer('stone_test')
+
+            //this.layerStoneTestCollision.resizeWorld()
+            this.layerFloor.resizeWorld();
+
+            this.map.setCollision('stone_test', true);
+
+            var wallsCG = this.game.physics.p2.createCollisionGroup();
+            var playerCG = this.game.physics.p2.createCollisionGroup();
+
+            var walls = this.game.physics.p2.convertCollisionObjects(this.map, 'colision');
+            debugger;
+            for (var wall in walls) {
+                debugger;
+                walls[wall].setCollisionGroup(wallsCG);
+                walls[wall].collides(playerCG);
+            }
+
+            /*this.layerFloor = this.map.createLayer('floor')
+             this.layerWallCollision = this.map.createLayer('wall')
+             this.layerCofreCollision = this.map.createLayer('cofre')
+             this.layerStoneCollision = this.map.createLayer('stone_down')
+             this.layerStoneTestCollision = this.map.createLayer('stone_test')
+             this.layerStone = this.map.createLayer('stone_up')
+             this.layerFire = this.map.createLayer('fire')
+             this.map.setCollisionBetween(1, 100, true, 'wall')
+             this.map.setCollisionBetween(1, 100, true, 'stone_down')
+             this.map.setCollisionBetween(1, 100, true, 'stone_test')
+             this.layerFloor.resizeWorld()
+             this.layerWallCollision.resizeWorld()
+             this.layerStoneCollision.resizeWorld()
+             this.layerCofreCollision.resizeWorld()
+             this.layerStoneTestCollision.resizeWorld()
+             this.layerStone.resizeWorld()
+             this.layerFire.resizeWorld()
+            
+            //this.game.physics.arcade.enable([this.hero.getSprite(),this.layerStoneTestCollision,this.layerStoneCollision, this.layerWallCollision,this.layerCofreCollision], Phaser.Physics.ARCADE)
+            this.game.physics.arcade.enable([this.hero.getSprite(),this.layerStoneTestCollision,this.layerCofreCollision], Phaser.Physics.ARCADE)
+            */
+            this.game.physics.p2.enable(this.hero.getSprite(), true);
+
+            this.hero.addAnimation();
+
+            this.hero.getSprite().body.fixedRotation = true;
+
+            this.hero.getSprite().body.collideWorldBounds = true;
+
+            this.hero.getSprite().body.setCollisionGroup(playerCG);
+
+            this.hero.getSprite().body.collides(wallsCG, function () {
+
+                var x = 1 + 1;
+            });
+
+            this.timeKeyDown = null;
+
+            var attackKey = this.game.input.keyboard.addKey(Phaser.Keyboard.A);
+
+            attackKey.onDown.add(function () {
+                this.timeKeyDown = this.game.time.now;
+            }, this);
+
+            attackKey.onUp.add(function () {}, this);
+
+            this.game.camera.follow(this.hero.getSprite(), Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
+        }
+    }, {
+        key: 'update',
+        value: function update() {
+            //this.game.physics.arcade.collide(this.hero.getSprite(), this.layerStoneCollision)
+            //this.game.physics.arcade.collide(this.hero.getSprite(), this.layerWallCollision)
+
+            this.hero.getSprite().body.setZeroVelocity();
+
+            this.hero.setOnKeyPress(false);
+
+            if (this.cursors.left.isDown) this.hero.moveLeft();
+
+            if (this.cursors.right.isDown) this.hero.moveRight();
+
+            if (this.cursors.up.isDown) this.hero.moveUp();
+
+            if (this.cursors.down.isDown) this.hero.moveDown();
+
+            /*
+            this.game.physics.arcade.collide(this.hero.getSprite(), this.layerStoneTestCollision)
+            this.game.physics.arcade.collide(this.hero.getSprite(), this.layerCofreCollision)
+             this.hero.setVelocityZero()
+             this.hero.setOnKeyPress(false)
+             if (this.cursors.left.isDown)
+                this.hero.moveLeft()
+            
+            if (this.cursors.right.isDown)
+                this.hero.moveRight()
+            
+            if (this.cursors.up.isDown)
+                this.hero.moveUp()
+            
+            if (this.cursors.down.isDown)
+                this.hero.moveDown()
+            
+            if (this.keyboard.isDown(Phaser.Keyboard.A) && this.cursors.left.isDown && (this.game.time.now - this.timeKeyDown) < 150)
+            {
+                this.hero.attack(true)
+            }
+             else if (this.keyboard.isDown(Phaser.Keyboard.A) && this.cursors.right.isDown && (this.game.time.now - this.timeKeyDown) < 150)
+            {
+                this.hero.attack(true)
+            }
+                
+            else if (this.keyboard.isDown(Phaser.Keyboard.A) && (this.game.time.now - this.timeKeyDown) < 150)
+            {
+                this.hero.attack(false)
+            }
+            
+            if(this.hero.getOnKeyPress() == false)
+                this.hero.stop()
+            */
+        }
+    }]);
+
+    return Boot;
+}();
+
+exports.default = Boot;
+
+},{"./factory/EnemyWidgetFactory":6,"./factory/HeroWidgetFactory":7}],3:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Game = function () {
+    function Game(preload, create, update) {
+        _classCallCheck(this, Game);
+
+        this.game = new Phaser.Game(600, 600, Phaser.AUTO, 'game-area');
+    }
+
+    _createClass(Game, [{
+        key: 'get',
+        value: function get() {
+            return this.game;
+        }
+    }]);
+
+    return Game;
+}();
+
+exports.default = Game;
+
+},{}],4:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var VELOCITY_X = 200;
+var VELOCITY_Y = 200;
+
+var Hero = function () {
+    function Hero(game) {
+        _classCallCheck(this, Hero);
+
+        this.game = game;
+
+        this.game.load.spritesheet('knight-walk', './assets/axe_animation.png', 100, 100);
+
+        this.faceLeft = false;
+
+        this.sprite = null;
+
+        this.onKeyPress = false;
+    }
+
+    _createClass(Hero, [{
+        key: 'getSprite',
+        value: function getSprite() {
+            if (this.sprite == null) this.sprite = this.game.add.sprite(50, 150, 'knight-walk');
+
+            return this.sprite;
+        }
+    }, {
+        key: 'addAnimation',
+        value: function addAnimation() {
+            this.sprite.scale.setTo(1 / 1.8, 1 / 1.8);
+
+            this.sprite.animations.add('walk-right', [3, 4, 3, 5], 9, true);
+
+            this.sprite.animations.add('walk-left', [7, 6, 7, 8], 9, true);
+
+            this.sprite.animations.add('attack-right', [0, 1, 2], 10, true);
+
+            this.sprite.animations.add('attack-left', [9, 10, 11], 10, true);
+
+            this.sprite.animations.add('attack-right-walk', [1, 2], 10, true);
+
+            this.sprite.animations.add('attack-left-walk', [10, 11], 10, true);
+        }
+
+        //TODO
+
+    }, {
+        key: 'jump',
+        value: function jump() {}
+
+        //TODO
+
+    }, {
+        key: 'run',
+        value: function run() {}
+    }, {
+        key: 'moveLeft',
+        value: function moveLeft() {
+            this.onKeyPress = true;
+            this.faceLeft = true;
+            this.sprite.body.moveLeft(VELOCITY_X);
+            this.sprite.animations.play('walk-left');
+        }
+    }, {
+        key: 'moveRight',
+        value: function moveRight() {
+            this.onKeyPress = true;
+            this.faceLeft = false;
+            this.sprite.body.moveRight(VELOCITY_X);
+            this.sprite.animations.play('walk-right');
+        }
+    }, {
+        key: 'moveUp',
+        value: function moveUp() {
+            this.onKeyPress = true;
+            this.sprite.body.moveUp(VELOCITY_Y);
+
+            if (this.faceLeft) this.sprite.animations.play('walk-left');else this.sprite.animations.play('walk-right');
+        }
+    }, {
+        key: 'moveDown',
+        value: function moveDown() {
+            this.onKeyPress = true;
+            this.sprite.body.moveDown(VELOCITY_Y);
+
+            if (this.faceLeft) this.sprite.animations.play('walk-left');else this.sprite.animations.play('walk-right');
+        }
+    }, {
+        key: 'getOnKeyPress',
+        value: function getOnKeyPress() {
+            return this.onKeyPress;
+        }
+    }, {
+        key: 'setOnKeyPress',
+        value: function setOnKeyPress(value) {
+            this.onKeyPress = value;
+        }
+    }, {
+        key: 'attack',
+        value: function attack(isWalking) {
+            this.onKeyPress = true;
+            console.log('iswalking..' + isWalking);
+            if (isWalking && this.faceLeft) this.sprite.animations.play('attack-left-walk');else if (isWalking && !this.faceLeft) this.sprite.animations.play('attack-right-walk');else if (this.faceLeft) {
+                this.sprite.animations.play('attack-left');
+                this.sprite.animations.currentAnim.onComplete.add(function () {
+                    this.sprite.frame = 7;console.log('attack-left!');
+                });
+            }
+
+            //this.sprite.animations.play('attack-left')
+            else {
+                    this.sprite.animations.play('attack-right');
+                    this.sprite.animations.currentAnim.onComplete.add(function () {
+                        this.sprite.frame = 3;console.log('attack-right!');
+                    });
+                }
+
+            //this.sprite.animations.play('attack-right')
+
+        }
+    }, {
+        key: 'stop',
+        value: function stop() {
+            this.sprite.animations.stop();
+        }
+    }]);
+
+    return Hero;
+}();
+
+exports.default = Hero;
+
+},{}],5:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var CharacterWidgetFactory = function () {
+    function CharacterWidgetFactory() {
+        _classCallCheck(this, CharacterWidgetFactory);
+
+        console.log('abstract factory constructor..');
+    }
+
+    _createClass(CharacterWidgetFactory, [{
+        key: 'CreateCharacter',
+        value: function CreateCharacter(game) {}
+    }]);
+
+    return CharacterWidgetFactory;
+}();
+
+exports.default = CharacterWidgetFactory;
+
+},{}],6:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _CharacterWidgetFactory = require('./CharacterWidgetFactory');
+
+var _CharacterWidgetFactory2 = _interopRequireDefault(_CharacterWidgetFactory);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var EnemyWidgetFactory = function (_CharacterWidgetFacto) {
+    _inherits(EnemyWidgetFactory, _CharacterWidgetFacto);
+
+    function EnemyWidgetFactory() {
+        _classCallCheck(this, EnemyWidgetFactory);
+
+        return _possibleConstructorReturn(this, (EnemyWidgetFactory.__proto__ || Object.getPrototypeOf(EnemyWidgetFactory)).call(this));
+    }
+
+    _createClass(EnemyWidgetFactory, null, [{
+        key: 'CreateCharacter',
+        value: function CreateCharacter(game) {
+            console.log('create enemy..');
+        }
+    }]);
+
+    return EnemyWidgetFactory;
+}(_CharacterWidgetFactory2.default);
+
+exports.default = EnemyWidgetFactory;
+
+},{"./CharacterWidgetFactory":5}],7:[function(require,module,exports){
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _CharacterWidgetFactory = require('./CharacterWidgetFactory');
+
+var _CharacterWidgetFactory2 = _interopRequireDefault(_CharacterWidgetFactory);
+
+var _Hero = require('../character/Hero');
+
+var _Hero2 = _interopRequireDefault(_Hero);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var HeroWidgetFactory = function (_CharacterWidgetFacto) {
+    _inherits(HeroWidgetFactory, _CharacterWidgetFacto);
+
+    function HeroWidgetFactory() {
+        _classCallCheck(this, HeroWidgetFactory);
+
+        return _possibleConstructorReturn(this, (HeroWidgetFactory.__proto__ || Object.getPrototypeOf(HeroWidgetFactory)).call(this));
+    }
+
+    _createClass(HeroWidgetFactory, null, [{
+        key: 'CreateCharacter',
+        value: function CreateCharacter(game) {
+            console.log('create hero..');
+
+            return new _Hero2.default(game);
+        }
+    }]);
+
+    return HeroWidgetFactory;
+}(_CharacterWidgetFactory2.default);
+
+exports.default = HeroWidgetFactory;
+
+},{"../character/Hero":4,"./CharacterWidgetFactory":5}]},{},[1]);

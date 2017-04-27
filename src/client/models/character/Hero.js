@@ -21,7 +21,7 @@ export default class Hero
     getSprite()
     {
         if(this.sprite == null)
-            this.sprite = this.game.add.sprite(50, 60, 'knight-walk')
+            this.sprite = this.game.add.sprite(50, 150, 'knight-walk')
 
         return this.sprite
     }
@@ -59,7 +59,7 @@ export default class Hero
     {
         this.onKeyPress = true
         this.faceLeft = true
-        this.sprite.body.velocity.x = -VELOCITY_X;
+        this.sprite.body.moveLeft(VELOCITY_X)
         this.sprite.animations.play('walk-left')
     }
 
@@ -67,14 +67,14 @@ export default class Hero
     {
         this.onKeyPress = true
         this.faceLeft = false
-        this.sprite.body.velocity.x = VELOCITY_X;
+        this.sprite.body.moveRight(VELOCITY_X)
         this.sprite.animations.play('walk-right')
     }
 
     moveUp()
     {
         this.onKeyPress = true
-        this.sprite.body.velocity.y = -VELOCITY_Y
+        this.sprite.body.moveUp(VELOCITY_Y)
 
         if(this.faceLeft)
             this.sprite.animations.play('walk-left')
@@ -85,7 +85,7 @@ export default class Hero
     moveDown()
     {
         this.onKeyPress = true
-        this.sprite.body.velocity.y = VELOCITY_Y
+        this.sprite.body.moveDown(VELOCITY_Y)
 
         if(this.faceLeft)
             this.sprite.animations.play('walk-left')
@@ -135,9 +135,4 @@ export default class Hero
         this.sprite.animations.stop()
     }
 
-    setVelocityZero()
-    {
-        this.sprite.body.velocity.x = 0;
-        this.sprite.body.velocity.y = 0;
-    }
 }
