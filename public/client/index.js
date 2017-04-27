@@ -121,45 +121,40 @@ var Boot = function () {
             this.map.addTilesetImage('base', 'tiles');
 
             this.layerFloor = this.map.createLayer('floor');
-            //this.layerStoneTestCollision = this.map.createLayer('stone_test')
 
-            //this.layerStoneTestCollision.resizeWorld()
+            this.layerWallCollision = this.map.createLayer('wall');
+
+            this.layerCofreCollision = this.map.createLayer('cofre');
+
+            this.layerStoneCollision = this.map.createLayer('stone_down');
+
+            this.layerStone = this.map.createLayer('stone_up');
+
+            this.layerFire = this.map.createLayer('fire');
+
+            this.layerWallCollision.resizeWorld();
+
+            this.layerStoneCollision.resizeWorld();
+
+            this.layerCofreCollision.resizeWorld();
+
+            this.layerStone.resizeWorld();
+
+            this.layerFire.resizeWorld();
+
             this.layerFloor.resizeWorld();
 
             this.map.setCollision('stone_test', true);
 
             var wallsCG = this.game.physics.p2.createCollisionGroup();
             var playerCG = this.game.physics.p2.createCollisionGroup();
-
             var walls = this.game.physics.p2.convertCollisionObjects(this.map, 'colision');
-            debugger;
+
             for (var wall in walls) {
-                debugger;
                 walls[wall].setCollisionGroup(wallsCG);
                 walls[wall].collides(playerCG);
             }
 
-            /*this.layerFloor = this.map.createLayer('floor')
-             this.layerWallCollision = this.map.createLayer('wall')
-             this.layerCofreCollision = this.map.createLayer('cofre')
-             this.layerStoneCollision = this.map.createLayer('stone_down')
-             this.layerStoneTestCollision = this.map.createLayer('stone_test')
-             this.layerStone = this.map.createLayer('stone_up')
-             this.layerFire = this.map.createLayer('fire')
-             this.map.setCollisionBetween(1, 100, true, 'wall')
-             this.map.setCollisionBetween(1, 100, true, 'stone_down')
-             this.map.setCollisionBetween(1, 100, true, 'stone_test')
-             this.layerFloor.resizeWorld()
-             this.layerWallCollision.resizeWorld()
-             this.layerStoneCollision.resizeWorld()
-             this.layerCofreCollision.resizeWorld()
-             this.layerStoneTestCollision.resizeWorld()
-             this.layerStone.resizeWorld()
-             this.layerFire.resizeWorld()
-            
-            //this.game.physics.arcade.enable([this.hero.getSprite(),this.layerStoneTestCollision,this.layerStoneCollision, this.layerWallCollision,this.layerCofreCollision], Phaser.Physics.ARCADE)
-            this.game.physics.arcade.enable([this.hero.getSprite(),this.layerStoneTestCollision,this.layerCofreCollision], Phaser.Physics.ARCADE)
-            */
             this.game.physics.p2.enable(this.hero.getSprite(), true);
 
             this.hero.addAnimation();
@@ -170,10 +165,7 @@ var Boot = function () {
 
             this.hero.getSprite().body.setCollisionGroup(playerCG);
 
-            this.hero.getSprite().body.collides(wallsCG, function () {
-
-                var x = 1 + 1;
-            });
+            this.hero.getSprite().body.collides(wallsCG);
 
             this.timeKeyDown = null;
 
@@ -190,9 +182,6 @@ var Boot = function () {
     }, {
         key: 'update',
         value: function update() {
-            //this.game.physics.arcade.collide(this.hero.getSprite(), this.layerStoneCollision)
-            //this.game.physics.arcade.collide(this.hero.getSprite(), this.layerWallCollision)
-
             this.hero.getSprite().body.setZeroVelocity();
 
             this.hero.setOnKeyPress(false);
